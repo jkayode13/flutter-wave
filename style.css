@@ -1,0 +1,49 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Moderat, sans-serif;
+}
+.header{
+    display: flex;
+    background-color: white;
+}
+.header-name{
+    margin-top: 40px;
+    margin-left: 100px;
+}
+.image{
+    height: 8vh;
+    margin-top: 28px;
+    margin-left: 100px;
+}
+.header-link{
+    font-size: 15px;
+    font-weight: 500;
+    display: flex;
+}
+.header-link >ul,li,a{
+    display: flex;
+    margin-top: 16px;
+    text-decoration: none;
+    gap: 5px;
+    margin-left: 20px;
+    color: black;
+}
+.signin{
+    margin-top: 30px;
+    margin-left: 100px;
+}
+.signin> button{
+    background-color: #EEEEEE;
+    border: none;
+    color: black;
+    padding: 15px 60px;
+    border-radius: 8px;
+    cursor: pointer;
+}
+.signin >button:hover{
+    background-color: black;
+    color: white;
+    transition: 0.5s ease-in-out;
+}
